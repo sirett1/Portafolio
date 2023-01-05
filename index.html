@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Challenge</title>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="logo">
+                <img class="logoImg" src="img/Logo.jpg" alt="">
+                <h1 class="titulo">Encriptador de mensajes</h1>
+
+            </div>
+            <div class="izquierdo">
+                <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto aqui">
+                
+            </div>
+
+            <div class="derecho">
+                <img class="" src="img/Muñeco.png" id="imgDer">
+                <h1 id="texto">Ningún mensaje fue encontrado</h1>
+                <textarea name="" id="texto2" cols="30" rows="10">Ingresa el texto que desees encriptar o desencriptar.</textarea>
+                <button id="copiar" type="button" onclick="copy()"> !Copiar!</button>
+            </div>
+
+            <div class="boton-izquierdo">
+                <img id="informacion"src="img/informacion.png" alt="">
+                <p><b>Solo letras minúsculas y sin acentos</b></p>
+                <button id="btn-encriptar" type="button" onclick="encriptar()"> Encriptar </button>
+                <button id="btn-desencriptar" type="button" onclick="desencriptar()" >Desencriptar</button>
+
+            </div>
+
+            
+        </div>
+    </body>
+    <footer>
+        <div class="pie">
+                <h4 id="autor">Creado por Junior Sirett</h4>
+          
+        </div>
+    </footer>
+</html>
